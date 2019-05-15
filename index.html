@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <title>npm</title>
 </head>
 <body>
@@ -19,20 +21,26 @@
       <li><a href="#">documentation</a></li>
       <li><a href="#">support</a></li>
     </ul>
+    <div class="clearfix">
+    </div>
   </nav>
   
   <header>
-    <img src="images/npm-logo.png">
-    <input type:"text" id="search-box" placeholder="find packages"><button type:"submit"><?xml version="1.0" ?><svg height="32px" version="1.1" viewBox="0 0 32 32" width="32px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#929292" id="icon-111-search"><path d="M19.4271164,21.4271164 C18.0372495,22.4174803 16.3366522,23 14.5,23 C9.80557939,23 6,19.1944206 6,14.5 C6,9.80557939 9.80557939,6 14.5,6 C19.1944206,6 23,9.80557939 23,14.5 C23,16.3366522 22.4174803,18.0372495 21.4271164,19.4271164 L27.0119176,25.0119176 C27.5621186,25.5621186 27.5575313,26.4424687 27.0117185,26.9882815 L26.9882815,27.0117185 C26.4438648,27.5561352 25.5576204,27.5576204 25.0119176,27.0119176 L19.4271164,21.4271164 L19.4271164,21.4271164 Z M14.5,21 C18.0898511,21 21,18.0898511 21,14.5 C21,10.9101489 18.0898511,8 14.5,8 C10.9101489,8 8,10.9101489 8,14.5 C8,18.0898511 10.9101489,21 14.5,21 L14.5,21 Z" id="search"/></g></g></svg></button> </button>
-  
-    <ul>
-        <li><a href="#">Sign up</a><span> or </span><a href="#">log in</a></li>
-      <img src="images/bear-logo.png">
+    <div class="top-header">
+    <img src="images/npm-logo.png" alt="logo-npm" class="npm-logo">
+    <input class="search-button" type:"text" id="search-box" placeholder="find packages"><button type:"submit"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+    <ul class="bear-log">
+      <li><a href="#">Sign up</a><span> or </span><a href="#">log in</a></li>
+      <li><img class="img-bear" src="images/bear-logo.png" alt="bear-logo"></li>
     </ul>
-    
+    </div>
+    <div class="main-head">
     <h1>Build Amazing Things</h1>
-    <p>npm is the package manager for JavaScript and the world'slargest software registry. Discover package of reusable code — and assemble them in powerful new ways.</p>
+    <p>npm is the package manager for JavaScript and the world's largest software registry. Discover package of reusable code — and assemble them in powerful new ways.</p>
     <button>sign up for npm</button>
+    </div>
+    <div class="clearfix">
+    </div>
   </header>
 
   <section id="npm">
@@ -52,19 +60,30 @@
     <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive fdeedback with others</p>
   </section>
 
-  <section>
-    <h2>what can you make with 475,000m building blocks?</h2>
-    <p>The npm registry hosts almost half a million packagers of free, reusable code — the largest software registry in the world.</p>
-
-    <img src="images/binoculars.svg">
-    <h3>Find</h3>
-    <p>Libraries like <a href="#">JQuery</a>, <ahref="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p> 
-    <img src="images/mountain-flag.svg">
-    <h3>Discover</h3>
-    <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
-    <img src="images/backpack.svg">
-    <h3>Build</h3>
-    <p>Assemble packages like building blocks to quickly develop awesome new projects</p>
+  <section class="npm-services">
+    <div class="head-content">
+        <h2>what can you make with 475,000m building blocks?</h2>
+        <p>The npm registry hosts almost half a million packagers of free, reusable code — the largest software registry in the world.</p>
+      </div>
+      <div class="box-information">
+        <article class="box find">
+        <img src="images/binoculars.svg">
+        <h3>Find</h3>
+        <p>Libraries like <a href="#">JQuery</a>, <ahref="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p> 
+        </article>
+        <article class="box discover">
+        <img src="images/mountain-flag.svg">
+        <h3>Discover</h3>
+        <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
+        </article>
+        <article class="box backpack">
+        <img src="images/backpack.svg">
+        <h3>Build</h3>
+        <p>Assemble packages like building blocks to quickly develop awesome new projects</p>
+        </article>
+      </div>
+      <div class=clearfix">
+    </div>
   </section>
 </body>
 </html>

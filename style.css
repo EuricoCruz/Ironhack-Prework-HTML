@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 11px 20px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 0;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  margin: 2px 20px 0 0;
+  list-style-type: none;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block;
+}
+.clearfix {
+  clear: both;
+}
+
+.top-header {
+  height: 60px;
+}
+
+.main-header {
+  height: 1200px;
+  background-image: url(images/buildings-and-billboard.png);
+}
+ul {
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  text-align: center;
+}
+
+.img-bear {
+  width: 40px;
+}
+ .fa-search-plus {
+   float: left;
+   padding: 8px;  
+ }
+
+ 
+#search-box {
+  float: left;
+  width: 70%;
+  height: 50%;
+  margin: 5px auto;
+  background-color: rgb(31, 82, 111);
+  padding-left: 5px;
+}
+
+.npm-logo{
+  float:left;
+  width: 125px;
+  padding: 5px 5px;
+}
+
+.search-butto {
+  float: left;
+}
+
+.bear-logo {
+  float: right;
+}
+header {
+  background-color: rgb(32, 101, 136);
+  color: white;
+
+}
+
+.box {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+  margin: 0 auto;
+  float: left;
+  border: 1px;
+}
+
+
+
+
