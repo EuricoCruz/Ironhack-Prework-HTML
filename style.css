@@ -37,9 +37,22 @@ nav a {
   height: 60px;
 }
 
+.sign-button {
+  background-color: rgb(240, 146, 51);
+  border-radius: 2px;
+  color: white;
+}
+
 .main-header {
   height: 1200px;
-  background-image: url(images/buildings-and-billboard.png);
+  background-image: url(images/city-scape.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+  background-color: rgb(32, 101, 136);
 }
 ul {
   display: inline-block;
@@ -56,7 +69,7 @@ ul {
    padding: 8px;  
  }
 
- 
+
 #search-box {
   float: left;
   width: 70%;
@@ -96,6 +109,10 @@ header {
   border: 1px;
 }
 
+.head-content {
+  text-align: center;
+  margin-top: 15px;
+}
 
 
 
