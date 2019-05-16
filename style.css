@@ -1,3 +1,7 @@
+* {
+  margin-top: 0;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -135,6 +139,7 @@ header {
 .collaboration-img {
   width: 40%;
   height: 400px;
+  margin-left: 9%;;
 }
 
 #npm-collaboration {
@@ -143,6 +148,15 @@ header {
   height: 500px;
   margin: 0 auto;
   padding: 0 auto;
+  position: relative;
+}
+
+.collaboration-list {
+  float: right;
+  box-sizing: border-box; 
+  width: 33%;
+  margin-right: 15%;
+  padding: 5%;
 }
 
 .header-blockquote {
@@ -151,10 +165,40 @@ header {
   width: 520px;
   margin-left: 18%;
   box-sizing: border-box;
-
+  line-height: 1.2 em;
 }
 
 h1 {
   font-size: 2.4em;
   font-weight: 200;
+}
+
+.org-button {
+  background-color: rgb(203, 56, 55);
+  border-color: rgb(203, 56, 55);
+  font-size: 0.9em;
+  border-radius: 10px;
+  color: white;
+}
+
+.install-button {
+  background-color: rgb(49, 68, 88);
+  border-color: rgb(49, 68, 88);
+  font-size: 0.9em;
+  border-radius: 10px;
+  color: white;
+}
+
+.install-information {
+  color: white;
+  width: 520px;
+  margin-left: 18%;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 0.9em;
+
+}
+
+.install-information h2 {
+  font-weight: 10;
 }
